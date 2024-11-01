@@ -1,0 +1,42 @@
+body.deadorxp {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#deadorxp_html_modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000;
+	/*background: rgba(0,0,0,0.8);*/
+	/*-ms-filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#77000000,EndColorStr=#77000000);*/
+}
+#deadorxp_html_close {
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: #ccc;
+	cursor: pointer;
+}
+#deadorxp_html_modal div {
+	position: relative;
+	margin: auto;
+	width: 500px;
+	height: 100%;
+}
+#deadorxp_html_modal div p {
+	position: absolute;
+	top: 45%;
+	margin-top: -6em;
+	padding: 30px 10px 10px 15px;
+	border: solid 1px #ccc;
+	line-height: 1.6;
+	text-align: left;
+	color: #fff;
+}

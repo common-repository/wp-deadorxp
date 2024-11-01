@@ -1,0 +1,45 @@
+body.deadorxp {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#deadorxp_html_modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	/*background: #fff;*/
+	background: rgba(255,255,255,0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ccffffff,endcolorstr=#ccffffff,gradienttype=0);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccffffff,endColorstr=#ccffffff)";
+	zoom:1;
+}
+#deadorxp_html_close {
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: #000;
+	cursor: pointer;
+}
+#deadorxp_html_modal div {
+	position: relative;
+	margin: auto;
+	width: 500px;
+	height: 100%;
+}
+#deadorxp_html_modal div p {
+	position: absolute;
+	top: 45%;
+	margin-top: -6em;
+	padding: 30px 10px 10px 15px;
+	line-height: 1.6;
+	text-align: left;
+	color: #333;
+	border: solid 1px #ccc;
+	background: #fff;
+}
